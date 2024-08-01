@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.cart-summary-container {
+    background-color: #ffffff;
+    padding: 10px;
+    align-self: flex-end;
+  }
+  .total-orders-text {
+    font-family: 'Roboto';
+    font-size: 28px;
+    color: #616e7c;
+  }
+  .span-text-order-total {
+    font-family: 'Roboto';
+    font-size: 28px;
+    color: #171f46;
+    font-weight: 700;
+  }
+  .items-count-text {
+    font-family: 'Roboto';
+    font-size: 22px;
+    color: #616e7c;
+  }
+  .buttn {
+    background-color: #0b69ff;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+  }
+  

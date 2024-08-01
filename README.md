@@ -68,3 +68,66 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### implementing 
+    this website implemented using React.js and Node.js and Mongo DB for user identification
+
+    the components developed are
+    1.LoginForm
+    2.RegisterForm
+    3.AllPropetiesList
+    4.Cart
+    5.CartSummary
+    6.CheckOut
+
+    usinng useState() ReactHook for functional components and state Management in class components
+    ReactContext also used for to avoid prop drilling betwenn components
+
+### version of Components
+{
+  "name": "clientside",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "js-cookie": "^3.0.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.2.1",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "5.0.1",
+    "reactjs-popup": "^2.0.6",
+    "uuid": "^10.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
+
+freepic.com website used for imageUrl
+in this project user can listing the properties according their choice and booking the propety it will added into cart feature 
+with certain details like how many rooms they booking and the cost od property property image
