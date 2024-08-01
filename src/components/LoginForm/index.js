@@ -53,7 +53,7 @@ const LoginForm = (props) =>{
         const response = await fetch(url, options)
         const data = await response.json()
         if (response.ok === true) {
-          onSubmitSuccess(data.jwt_token)
+          onSubmitSuccess(data.jwtToken)
         } else {
           onSubmitFailure(data.errorMsg)
         }
