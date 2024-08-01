@@ -45,6 +45,9 @@ const LoginForm = () =>{
         const url = 'https://totality-frontend-challenge-asp5.onrender.com/login'
         const options = {
           method: 'POST',
+          headers:{
+            "Content-Type":"application/json"
+          },
           body: JSON.stringify(userDetails),
         }
         const response = await fetch(url, options)
