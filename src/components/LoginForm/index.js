@@ -4,7 +4,7 @@ import Cookies from "js-cookie";
 
 import "./index.css";
 import { Redirect } from "react-router-dom/cjs/react-router-dom.min";
-const LoginForm = () =>{
+const LoginForm = (props) =>{
 
     const[username, setUserName] = useState("");
     const[password, setPassword] = useState("");
@@ -25,7 +25,7 @@ const LoginForm = () =>{
       }
     
       const onSubmitSuccess = jwtToken => {
-        const {history} = this.props
+        const {history} = props
     
         Cookies.set('jwtToken', jwtToken, {
           expires: 30,
