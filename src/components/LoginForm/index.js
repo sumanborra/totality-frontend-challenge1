@@ -42,7 +42,7 @@ const LoginForm = (props) =>{
         event.preventDefault()
         
         const userDetails = {username, password}
-        const url = 'https://totality-frontend-challenge-asp5.onrender.com/login'
+        const url = 'https://totality-frontend-challenge-qbdm.onrender.com/login'
         const options = {
           method: 'POST',
           headers:{
@@ -52,6 +52,7 @@ const LoginForm = (props) =>{
         }
         const response = await fetch(url, options)
         const data = await response.json()
+        console.log(data)
         if (response.ok === true) {
           onSubmitSuccess(data.jwtToken)
         } else {

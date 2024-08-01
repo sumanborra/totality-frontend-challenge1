@@ -36,7 +36,7 @@ const Register = (props) =>{
         event.preventDefault()
         
         const userDetails = {username, password}
-        const url = 'https://totality-frontend-challenge-asp5.onrender.com/register'
+        const url = 'https://totality-frontend-challenge-qbdm.onrender.com/register'
         const options = {
           method: 'POST',
           headers:{
